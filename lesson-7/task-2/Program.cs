@@ -42,8 +42,6 @@ bool Array2DHasNumber(int[,] array, int number)
             if (array[row, col] == number)
             {
                 return true;
-
-                break;
             }
         }
     }
